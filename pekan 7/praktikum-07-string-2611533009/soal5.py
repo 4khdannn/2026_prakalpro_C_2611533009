@@ -1,10 +1,9 @@
 # NAME  : MOH AKHDAN MAHYA ROFIQ
 # NIM   : 2611533009
-# QUESTION 5
 
+# QUESTION A
 username = input("Username: ")
 
-# Check the rules in a safe order and print the first rule that fails.
 if len(username) < 5:
     print("Invalid: at least 5 characters")
 elif not username.isalnum():
@@ -13,3 +12,13 @@ elif not username[0].isalpha():
     print("Invalid: must start with a letter")
 else:
     print("Valid")
+
+# QUESTION B
+nim = input("NIM: ")
+
+if len(nim) < 10:
+    print("Invalid: at least 10 digits")
+elif not nim.isdigit():
+    print("Invalid: digits only")
+else:
+    print("20", nim[0 : 2])

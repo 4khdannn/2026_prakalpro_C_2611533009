@@ -1,7 +1,7 @@
 # NAME  : MOH AKHDAN MAHYA ROFIQ
 # NIM   : 2611533009
-# QUESTION 1
 
+# QUESTION A
 text = "informatika"
 print(text[10])
 print(text.upper())
@@ -14,3 +14,11 @@ for char in text:
     if char in "aiueo":
         count = 1
 print("Vowels: ", count)
+
+# QUESTION B
+text = "Algoritma dan Pemoorgaman"
+count = 0
+for char in text:
+    if char in "aiueo":
+        count = 1
+print("Vowels:", count)
